@@ -1,39 +1,48 @@
 # Decision Tree Classifier for Advertisement Dataset
-<br>
 
 ## Overview
-This repository contains the implementation of a Decision Tree Classifier in R programming language for analyzing an advertisement dataset. 
 
-<hr>
-
-The main goal of this project is to predict the success or failure of an advertisement based on various features present in the dataset.
-<br>
+This repository contains a Decision Tree Classifier implemented in R programming for analyzing an advertisement dataset. The primary objective is to predict the success or failure of an advertisement based on various features present in the dataset.
 
 ## Dataset
 
-The dataset used for this project is included in the repository as "advertisement.csv" . It includes relevant information such as the type of advertisement, the platform used, the target audience, and other features that can influence the effectiveness of an advertisement.
-<hr>
+The dataset utilized for this project is available as `advertisement.csv`. It encompasses essential information, including the advertisement type, platform, target audience, and other features that could impact the advertisement's effectiveness.
+
 
 ## Files
 
-main.ipynb: This Jupyter Notebook contains all the code for data loading, preprocessing, model training, and evaluation. It serves as the main entry point for understanding the workflow of the project.
-Dependencies
-Make sure you have the following R packages installed:
+- **main.ipynb**: This Jupyter Notebook contains all the code for data loading, preprocessing, model training, and evaluation. It serves as the central hub for understanding the project's workflow.
 
-rpart: For building decision trees.
-rpart.plot: For visualizing decision trees.
-You can install them using the following commands:
+## Dependencies
 
-R
-Copy code
+Ensure the following R packages are installed:
+
+- `rpart`: For constructing decision trees.
+- `caret`: For machine learning model training and evaluation.
+- `caTools`: For sample splitting and other data manipulation functions.
+
+
+Install these packages using the following commands:
+
+```
 install.packages("rpart")
-install.packages("rpart.plot")
-Usage
-Clone the repository to your local machine:
+install.packages("caret")
+install.packages("caTools")
+```
 
-bash
-Copy code
-git clone https://github.com/your-username/decision-tree-advertisement.git
-Open and run the main.ipynb notebook in your R environment.
 
-Follow the step-by-step instructions in the notebook to load the dataset, preprocess the data, train the Decision Tree model, and evaluate its performance.
+## Usage
+
+1. **Clone the repository to your local machine:**
+
+    ```bash
+    git clone https://github.com/harichselvamc/Decision_Tree_Classifier_for_Advertisement_Dataset.git
+    ```
+
+2. **Open and run the `main.ipynb` notebook in your R environment.**
+
+3. **Follow the step-by-step instructions in the notebook to:**
+   - Load the dataset
+   - Preprocess the data
+   - Train the Decision Tree model
+   - Evaluate its performance
